@@ -1,0 +1,34 @@
+
+#about {
+  background-color: #f8f8f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.fondo {
+  width: 80%;
+  height: 33vh;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4B3A2F; 
+  background-color: #FFF8F0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  transition: background-color 0.3s ease;
+}
+
+.texto:hover {
+  background-color: #fbe5f1; 
+}
+

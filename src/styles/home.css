@@ -1,0 +1,42 @@
+header {
+  text-align: center;
+  padding: 180px 30px;
+  background: linear-gradient(
+    154deg,
+    rgba(255, 130, 193, 1) 0%,
+    rgba(252, 217, 234, 1) 20%,
+    rgba(255, 189, 220, 1) 41%,
+    rgba(249, 201, 255, 1) 70%,
+    rgba(219, 181, 255, 1) 100%
+  );
+}
+
+header h1 {
+  font-size: 800%;
+}
+
+header button {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header button:hover {
+  background-color: #f480ba;
+  transform: scale(1.05);
+}
+
+.newsreader {
+  font-family: "Newsreader", serif;
+}
+
+.zain-extralight {
+  font-family: "Zain", sans-serif;
+  font-weight: 200;
+}
