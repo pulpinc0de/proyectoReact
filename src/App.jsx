@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import './styles/home.css'
 import './styles/navbar.css'
 import './styles/products.css'
