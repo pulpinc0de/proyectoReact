@@ -7,7 +7,6 @@ import redVelvet from '../assets/redvelvet.jpg';
 import tresLeches from '../assets/tresleches.jpg';
 
 
-
 function Products() {
   const formRef = useRef()
 
@@ -29,12 +28,15 @@ function Products() {
     },
   ]
 
+  // Función para manejar el clic en "Encargar"
+  // Guarda el tipo de pastel en localStorage y desplaza la vista al formulario
   const handleEncargar = (tipo) => {
     const tipoFormateado = tipo.toLowerCase().replace(/\s/g, '')
     localStorage.setItem('tipoPedido', tipoFormateado)
     formRef.current?.scrollIntoView({ behavior: 'smooth' })
   }
-
+  // Renderiza la lista de productos
+  // Cada producto es un ProductCard con su título, imagen y descripción
   return (
     <>
       <h1 id="products" className="ProductosEstrellas">Nuestros Productos Estrella</h1>

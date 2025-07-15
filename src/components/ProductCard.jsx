@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '../styles/productCard.css';
 
-
+// Componente ProductCard
+// Muestra la información de un pastel y permite encargarlo
 function ProductCard({ title, image, description, onEncargar }) {
   return (
     <div className="card">
@@ -25,7 +26,7 @@ function ProductCard({ title, image, description, onEncargar }) {
     </div>
   )
 }
-
+// PropTypes para validar las props del componente
 ProductCard.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,

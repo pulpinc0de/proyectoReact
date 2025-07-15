@@ -15,6 +15,8 @@ import Gallery from './pages/Gallery'
 import About from './pages/About'
 import ContactForm from './pages/ContactForm'
 
+// Componente principal de la aplicación
+// Importa y renderiza los componentes Navbar, Home, Products, Gallery, About, ContactForm y Footer
 function App() {
   return (
     <>

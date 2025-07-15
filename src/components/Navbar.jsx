@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/navbar.css';
 
+// Navbar de Bootstrap
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
